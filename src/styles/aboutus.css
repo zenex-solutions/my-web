@@ -1,0 +1,448 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+  
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+  
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1400px;
+  height: 350px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 100px;
+}
+.flex-column-c {
+  position: absolute;
+  width: 320.179px;
+  height: 450px;
+  left: 646px;
+  z-index: 17;
+  
+}
+.rectangle {
+  position: relative;
+  width: 320.179px;
+  height: 160px;
+  margin: 0 0 0 0;
+  background: #ffffff;
+  z-index: 11;
+  overflow: visible auto;
+  border-radius: 4px;
+  box-shadow: 5px 0 100px 0 rgba(247, 247, 247, 0.5);
+}
+.diamond-outline {
+  position: relative;
+  width: 44px;
+  height: 31px;
+  margin: 16px 0 0 23.027px;
+  background: url(../assets/images/1.svg) 
+  no-repeat center;
+  background-size: cover;
+  z-index: 15;
+  overflow: hidden;
+}
+.database-management {
+  display: block;
+  position: relative;
+  height: 20px;
+  margin: 8px 0 0 23.027px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 14;
+}
+.create-user-interface {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 277.489px;
+  height: 42px;
+  margin: 15px 0 0 22.601px;
+  color: #313432;
+  font-family: Inter, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 13;
+  overflow: hidden;
+}
+.rectangle-1 {
+  position: relative;
+  width: 320.179px;
+  height: 160px;
+  margin: 30px 0 0 0;
+  background: #ffffff;
+  z-index: 17;
+  overflow: visible auto;
+  border-radius: 4px;
+  box-shadow: 5px 0 100px 0 rgba(247, 247, 247, 0.5);
+}
+.school-outline {
+  position: relative;
+  width: 35px;
+  height: 37px;
+  margin: 22px 0 0 29.027px;
+  background: url(../assets/images/2.svg) 
+  no-repeat center;
+  background-size: cover;
+  z-index: 21;
+  overflow: hidden;
+}
+.application {
+  display: block;
+  position: relative;
+  height: 20px;
+  margin: 6px 0 0 22.601px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 20;
+}
+.create-digital-user {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 277.489px;
+  height: 42px;
+  margin: 12px 0 0 22.601px;
+  color: #313432;
+  font-family: Inter, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 19;
+  overflow: hidden;
+}
+.flex-column-e {
+  position: absolute;
+  width: 637.848px;
+  height: 311px;
+  left: 108px;
+  z-index: 8;
+}
+.why-hire-me {
+  position: relative;
+  width: 536.143px;
+  height: 108px;
+  margin: 51px 0 0 6.278px;
+  font-family: Inter, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 4;
+}
+.text-5 {
+  position: relative;
+  color: #0b0c0b;
+  font-family: Inter, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+}
+.text-6 {
+  position: relative;
+  color: #0b0c0c;
+  font-family: Inter, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+}
+.text-7 {
+  position: relative;
+  color: #fd6f00;
+  font-family: Inter, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+}
+.text-8 {
+  position: relative;
+  color: #fd6f00;
+  font-family: Inter, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+}
+.text-9 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 416.57px;
+    height: 48px;
+    margin: 24px 0 0 6.278px;
+    color: #313432;
+    font-family: Inter, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    z-index: 5;
+}
+.text-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 75.336px;
+  height: 24px;
+  margin: 56px 0 0 55.247px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 3;
+}
+.ellipse {
+  position: absolute;
+  width: 119.283px;
+  height: 41px;
+  top: 0;
+  left: 0;
+  background: url(../assets/images/4.svg) 
+  no-repeat center; 
+  background-size: cover;
+  z-index: 8;
+}
+.my-skills {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 29px;
+  top: 6px;
+  left: 6.278px;
+  color: #fd6f00;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.rectangle-2 {
+  position: absolute;
+  width: 320.179px;
+  height: 160px;
+  top: 95px;
+  left: 983px;
+  background: #ffffff;
+  z-index: 23;
+  border-radius: 4px;
+  box-shadow: 5px 0 100px 0 rgba(247, 247, 247, 0.5);
+}
+.frame {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 22px 0 0 24.179px;
+  background: url(../assets/images/3.svg) 
+  no-repeat center;
+  background-size: cover;
+  z-index: 27;
+  overflow: hidden;
+}
+.cloud-computing {
+  display: block;
+  position: relative;
+  height: 20px;
+  margin: 3px 0 0 22.601px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 26;
+}
+
+.create-advance-design{
+  margin-top: 10px;
+  margin-left: 23px;
+  text-align: justify;
+}
+
+/* Existing CSS remains the same */
+
+/* Tablet Responsive Styles */
+@media screen and (max-width: 1024px) {
+  .main-container {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 50px auto;
+    padding: 0 20px;
+  }
+
+  .flex-column-e {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0;
+    text-align: center;
+  }
+
+  .flex-column-c {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0;
+    margin-top: 30px;
+  }
+
+  .why-hire-me {
+    width: 100%;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .text-9 {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .rectangle, 
+  .rectangle-1, 
+  .rectangle-2 {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 600px) {
+  .main-container {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+
+  .flex-column-e {
+    width: 100%;
+    text-align: center;
+  }
+
+  .why-hire-me {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .text-5, 
+  .text-6, 
+  .text-7, 
+  .text-8 {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  .text-9 {
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .flex-column-c {
+    width: 100%;
+  }
+
+  .rectangle, 
+  .rectangle-1
+  {
+    width: 78%;
+    margin: 10px 0;
+    padding: 10px;
+    margin-left:51px
+  }
+.rectangle-2 {
+  width: 78%;
+    margin: 10px 0;
+    padding: 10px;
+    margin-left:51px
+}
+  .diamond-outline,
+  .school-outline,
+  .frame {
+    margin: 10px auto;
+    display: block;
+  }
+
+  .database-management,
+  .application,
+  .cloud-computing {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .create-user-interface,
+  .create-digital-user,
+  .create-advance-design {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .text-a {
+    margin: 20px auto;
+    display: block;
+  }
+  .ellipse{
+    width: 0px;
+    height: 50px;
+  }
+}

@@ -1,0 +1,181 @@
+/* Common Section Styling */
+.services-section,
+.skills-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.services-title,
+.skills-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.services-description,
+.skills-description {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+/* Services Section Styling */
+.services-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Skills Section Styling */
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 1000px;
+  margin-left: 252px;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skill-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Tablet Responsive Styles */
+@media screen and (max-width: 1024px) {
+  .services-section,
+  .skills-section {
+    padding: 40px 15px;
+  }
+
+  .services-title,
+  .skills-title {
+    font-size: 32px;
+  }
+
+  .services-description,
+  .skills-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .services-container {
+    gap: 15px;
+  }
+
+  .service-card {
+    width: 220px;
+    padding: 15px;
+  }
+
+  .service-card h3 {
+    font-size: 20px;
+  }
+
+  .service-card p {
+    font-size: 13px;
+  }
+
+  .skills-container {
+    width: 100%;
+    margin-left: 0;
+    gap: 25px;
+  }
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 600px) {
+  .services-section,
+  .skills-section {
+    padding: 30px 10px;
+  }
+
+  .services-title,
+  .skills-title {
+    font-size: 28px;
+  }
+
+  .services-description,
+  .skills-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .services-container {
+    gap: 10px;
+  }
+
+  .service-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+  }
+
+  .service-icon {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .service-card h3 {
+    font-size: 18px;
+  }
+
+  .service-card p {
+    font-size: 12px;
+  }
+
+  .skills-container {
+    gap: 20px;
+  }
+
+  .skill-card img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .skill-card p {
+    font-size: 12px;
+  }
+}
